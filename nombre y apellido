@@ -1,0 +1,22 @@
+let cuenta =prompt("ingrese el mundo de cuenta:")
+let nombre =prompt("ingrese el nombre: ")
+let apellido =prompt("ingrese el apellido")
+let max=100
+let min=20
+let n1 =Math.random()*(max-min)+min;
+let n2 =Math.random()*(max-min)+min;
+let n3 =Math.random()*(max-min)+min;
+let n4 =Math.random()*(max-min)+min;
+let n5 =Math.random()*(max-min)+min;
+
+let result =(n1+n2+n3+n4+n5)/5
+
+console.log("numero de cuenta",cuenta)
+console.log("numero yb apellido",nombre, apellido)
+console.log("Notas:" ,n1,n2,n3,n4,n5)
+if (resultado >=70)
+              console.log("aprobado")
+              else
+              console.log("reprobado")
+              
+              console.log("try programiz.pro");
