@@ -1,0 +1,6 @@
+let promedio=75
+if(promedio >=60){
+    console.log("aprobado")
+}else{
+    console.log("no aprobado")
+}
