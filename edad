@@ -1,0 +1,9 @@
+//4 verifica si la persona puede votar o no (mayor o igual a 18) e indica años le faltan 
+let edad =prompt("ingrese la edad:  ");
+let anios =18-edad 
+if(edad >=18)
+ console.log ("puede ejercer el voto")
+ else
+  console.log ("es menor de la edad le falta,"+anios+"años")
+  
+  console.log("try programuz.pro");
