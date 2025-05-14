@@ -1,0 +1,6 @@
+let x1= prompt("ingrese el valor de x1");
+let y1= prompt("ingrese el valor de y1");
+let x2= prompt("ingrese el valor de x2");
+let y2= prompt("ingrese el valor de y2");
+let distancia=Math.sqrt(Math.pow(x2-x1,2)+Math.pow(y2-y1,2));
+console.log("la distanciaentre los dos puntos es"+distancia);
