@@ -1,0 +1,6 @@
+let depositoP=prompt("ingrese el deposito: l.");
+let interes =prompt ("ingrese el interes: ")
+interes/=1000
+let anio=prompt("ingrese los años a calcular: ")
+let resultado=depositoP*Math.pow((1+interes),anio)
+console.log("el interes calculado en "+anio+"es:"+resultado)
