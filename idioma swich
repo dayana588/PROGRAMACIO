@@ -1,0 +1,17 @@
+//8.usa un swich para imprimir un mensaje de saludo diferentes dependiendo del idioma 
+
+let x =Number(prompt("Ingrese idioma : 1. español 2. ingles 3.  aleman "))
+
+switch(x){
+    case 1:
+        console.log("hola")
+        break
+        case 2:
+            consolelog("hello")
+            break
+            case 3:
+                console.log("hallo")
+                break
+}
+
+console.log("try programiz.pro")
