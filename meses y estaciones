@@ -1,0 +1,12 @@
+let mes = prompt("ingrese el mes:")
+
+if(mes=="enero" || mes =="febrero"|| mes == "marzo")
+console.log("estamos en primavera")
+else if (mes=="abril" || mes=="mayo"||mes=="junio")
+console.log("estamos en verano")
+else if (mes=="junio"||mes=="agosto" ||mes== "septiembre")
+console.log("estamos en otoño")
+else
+console.log("estamos en invierno")
+
+console.log("try programiz,pro");
