@@ -1,0 +1,17 @@
+let km =prompt("ingreselos kilometros recorridos =");
+
+let dias =prompt("ingrese los dias=");
+
+let result=km*0.75;
+let seguro=800;
+let result2=dias*400;
+let subtotal= result1+result2+seguro;
+let imp=subtotal*0.10;
+let total_a_pagar=subtotal+imp;
+
+console.log(result1)
+console.log(seguro)
+console.log(result2)
+console.log("subtotal: "+ subtotal)
+console.log(imp)
+console.log("total a pagar:"+total_a_pagar)
